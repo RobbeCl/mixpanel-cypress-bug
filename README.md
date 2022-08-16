@@ -1,24 +1,9 @@
 # timer-vue
 
-## Project setup
-```
-yarn install
-```
+## Reproduce issue
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. Install dependencies via yarn `yarn`
+2. Run `yarn serve` to run the Vue instance
+3. Run `npx cypress open` to open cypress
+4. Run the test `bug.cy.js`
+5. Now the cypress instance crashed
